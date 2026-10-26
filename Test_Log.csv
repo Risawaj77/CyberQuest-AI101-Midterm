@@ -1,0 +1,9 @@
+Test ID,Test,Expected,Actual,Result,Evidence
+T1,Case 1 flagged suspicious,Shows rationale,NOT RUN,NOT RUN,Student browser screenshot
+T2,Safe case selection,Shows rationale,NOT RUN,NOT RUN,Student browser screenshot
+T3,Next case,Shows next case,NOT RUN,NOT RUN,Student browser screenshot
+T4,Reset training,Counters return to zero,NOT RUN,NOT RUN,Student browser screenshot
+T5,Signal Scanner with sample,Lists multiple warning signs,NOT RUN,NOT RUN,Student browser screenshot
+T6,Scanner with blank input,Displays input message,NOT RUN,NOT RUN,Student browser screenshot
+T7,Self Tests,8 out of 8 checks pass,NOT RUN,NOT RUN,Student browser screenshot
+T8,Scanner with neutral text,No matches and safety disclaimer,NOT RUN,NOT RUN,Student browser screenshot
