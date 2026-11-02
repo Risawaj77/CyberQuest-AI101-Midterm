@@ -5,5 +5,5 @@ T3,Next case,Shows next case,NOT RUN,NOT RUN,Student browser screenshot
 T4,Reset training,Counters return to zero,User confirmed counters returned to 0/6 after clicking Reset training,PASS,User-reported browser observation 2026-11-02; screenshot not yet provided
 T5,Signal Scanner with suspicious practice text and Insert example,Lists multiple warning signs,Manual text showed 2 warning signs; Insert example showed 3 warning signs (Urgency / pressure; Credential request; Unfamiliar link),PASS,Student browser screenshots 2026-11-02
 T6,Scanner with blank input,Displays input message,NOT RUN,NOT RUN,Student browser screenshot
-T7,Self Tests,8 out of 8 checks pass,NOT RUN,NOT RUN,Student browser screenshot
+T7,Self Tests,8 out of 8 checks pass,8/8 checks passed as displayed in browser (six cases; case types; explanations; urgency; password; financial; neutral; HTML escaping),PASS,Student browser screenshot 2026-11-02
 T8,Scanner with neutral text,No matches and safety disclaimer,Displayed no-match guidance advising independent sender and link verification and warning that no match does not mean safe,PASS,Student browser screenshot 2026-11-02
