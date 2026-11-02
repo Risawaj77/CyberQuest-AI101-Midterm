@@ -1,25 +1,33 @@
-# CYBERQUEST — AI 101 Midterm
+# CYBERQUEST — AI 101 Midterm App
 
-## Audience and problem
-First-year college students need practice noticing phishing red flags without handling real malicious email or exposing private data.
+**Live site:** https://risawaj77.github.io/CyberQuest-AI101-Midterm/
+
+## Audience and purpose
+First-year college students who want a safe way to practice recognizing phishing red flags without handling malicious emails or exposing personal data.
 
 ## Features
-1. Six fictional inbox cases with safe/suspicious decisions and feedback.
-2. Progress and correctness dashboard with restart.
-3. Rule-based Signal Scanner for fictional practice messages.
+1. **Interactive simulated inbox:** six fictional messages, safe/suspicious choices, feedback and progress tracking.
+2. **Signal Scanner:** enter fictional practice messages to find simple warning phrases and read educational safety guidance.
+3. **Self Tests:** eight built-in checks for sample data and scanner rules.
 
-## Run
-1. Extract the ZIP.
-2. Open `index.html` in Microsoft Edge or Chrome. It is self-contained: no server, internet, or extensions needed.
-3. Use the case buttons and mark each message; feedback will explain the clues.
-4. Use Signal Scanner with fictional text.
-5. Open **Self Tests** and select **Run 8 tests**.
+## How to run and use
+Open the live URL above in Chrome, Edge or another modern browser. Select a case and choose suspicious or safe to reveal an explanation; use Reset training to try again. Scroll to Signal Scanner and enter fictional practice text, then select Scan for warning signs. Under Self Tests, click Run 8 tests.
 
-## Limitations
-- Not a live AI model or production phishing detector. AI assisted with prototyping.
-- Simple keyword patterns generate false positives and can miss sophisticated phishing.
-- No real student data, email integration, or safety certification.
-- Test runner covers logic/data; browser interactions should also be checked manually.
+To run locally, download the repository and open index.html directly in a browser. No server, API key or subscription is necessary.
 
-## Suggested issue and PR workflow
-Use `Issue_PR_Guide.md` to create a real issue, branch and PR and retain screenshots; these documents are *not* proof that a review happened.
+## Sources and credits
+The educational examples and explanations are fictional, created with ChatGPT assistance and reviewed through browser tests. No real phishing messages, real student records, or external datasets were used. This is a demonstration of common social-engineering patterns, not a validated cybersecurity guidance service.
+
+## Known limitations
+- The scanner uses JavaScript keyword-matching rules, not a live AI API or authoritative detector.
+- It may miss sophisticated scams and may flag harmless messages.
+- “No warning phrases” never means “safe.” Verify senders independently.
+- No external source verification, real email integration, persistent account or security certification.
+- See TEST_LOG.md for observed tests and remaining unverified keyboard/narrow-screen/empty-input checks.
+
+## Assignment evidence
+- [Five-plus recorded test observations and mandatory-category gaps](TEST_LOG.md)
+- [AI Use Note and prompt record](AI_USE.md)
+- [Evidence and revision](EVIDENCE.md)
+- [Original issue](https://github.com/Risawaj77/CyberQuest-AI101-Midterm/issues/1)
+- [Merged pull request / before-after code diff](https://github.com/Risawaj77/CyberQuest-AI101-Midterm/pull/2/files)
