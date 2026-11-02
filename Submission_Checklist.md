@@ -1,9 +1,17 @@
-# Submission Checklist
-- [ ] Open index.html and confirm all 6 cases are visible
-- [ ] Run Self Tests; capture screenshot
-- [ ] Perform and record 5+ real tests, including edge case
-- [ ] Make real GitHub Issue and PR; capture revision evidence
-- [ ] Update AI Use Note with real changes and verification
-- [ ] Save before/after screenshots of a real change
-- [ ] Submit ZIP/repository, README, issue/PR evidence, test log, AI note
-- [ ] Practice 5-minute demo explaining audience, features, AI-assisted improvement, tests, limitation
+# Submission Checklist — CYBERQUEST (November 2, 2026)
+- [x] App published; six fictional cases visible.
+- [x] Eight automated self-checks displayed PASS in browser.
+- [x] Five verified browser outcomes in Test_Log.csv (including neutral text edge case).
+- [x] Issue #1 and merged PR #2 documented with review comment.
+- [x] AI Use Note updated to explain assistance, verification and limitations.
+- [x] Before-and-after code change documented in GitHub Pull Request Files changed.
+- [ ] Student to submit URLs and evidence to Canvas.
+- [ ] Student to practice five-minute demonstration.
+- [ ] Optional: capture separate actual screenshots of old/new code if professor specifically requires screenshots rather than GitHub diff evidence.
+
+Live site: https://risawaj77.github.io/CyberQuest-AI101-Midterm/
+Repository: https://github.com/Risawaj77/CyberQuest-AI101-Midterm
+Issue: https://github.com/Risawaj77/CyberQuest-AI101-Midterm/issues/1
+PR and code comparison: https://github.com/Risawaj77/CyberQuest-AI101-Midterm/pull/2/files
+
+Not yet recorded as browser PASS: blank scanner input, safe-case feedback, Next-case transition. Do not claim those were tested.
