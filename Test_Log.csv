@@ -2,7 +2,7 @@ Test ID,Test,Expected,Actual,Result,Evidence
 T1,Case 1 flagged suspicious,Shows rationale,Correct message and sender-domain explanation displayed; answer buttons disabled,PASS,Student browser screenshot 2026-11-02
 T2,Safe case selection,Shows rationale,NOT RUN,NOT RUN,Student browser screenshot
 T3,Next case,Shows next case,NOT RUN,NOT RUN,Student browser screenshot
-T4,Reset training,Counters return to zero,NOT RUN,NOT RUN,Student browser screenshot
+T4,Reset training,Counters return to zero,User confirmed counters returned to 0/6 after clicking Reset training,PASS,User-reported browser observation 2026-11-02; screenshot not yet provided
 T5,Signal Scanner with sample,Lists multiple warning signs,NOT RUN,NOT RUN,Student browser screenshot
 T6,Scanner with blank input,Displays input message,NOT RUN,NOT RUN,Student browser screenshot
 T7,Self Tests,8 out of 8 checks pass,NOT RUN,NOT RUN,Student browser screenshot
